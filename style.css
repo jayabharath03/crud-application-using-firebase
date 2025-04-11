@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+h3 {
+  font-weight: 600;
+  margin: 15px 0;
+  color: tomato;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+form {
+  width: 600px;
+}
+form .form-group {
+  display: flex;
+  align-items: center;
+}
+
+form .form-group label {
+  font-weight: 500;
+  text-transform: uppercase;
+  min-width: 100px;
+}
+form .form-group input {
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  border-radius: 2px;
+  margin: 10px 0;
+}
+
+form button {
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 5px;
+  color: white;
+  border: none;
+  background-color: tomato;
+  letter-spacing: 1px;
+  margin: 15px 0;
+}
+table {
+  border: 1px solid teal;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+table thead tr {
+  background-color: teal;
+  color: #fff;
+}
+table thead tr th {
+  border-color: teal;
+  font-weight: 400;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
+table td button {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 8px;
+  display: block;
+  margin: 0 auto;
+  background-color: teal;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn-delete {
+  background-color: red;
+}
+.btn-edit ion-icon,
+.btn-delete ion-icon {
+  pointer-events: none;
+}
