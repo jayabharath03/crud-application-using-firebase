@@ -1,1 +1,0 @@
-# crud-application-using-firebase
